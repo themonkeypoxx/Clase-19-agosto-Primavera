@@ -5,5 +5,4 @@ from . import views
 #Quiero que cuando escriba '' en el url, se ejecute lo que está en ruta.funcion
 urlpatterns = [
     path('v1/', views.vista1),
-    path ("v2/", views.vista2)   
 ]
